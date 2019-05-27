@@ -114,10 +114,13 @@ function gameOver(won, msg){
   message.style.color = color;
   // Set message
   setMessage(msg);
-
+  
+  
+  if(guessesLeft!=0)
+  {
   guessesLeft+=1;
   playerguess.value=guessesLeft;
-
+  }
   // PLay Again?
   if(won==false)
   {
