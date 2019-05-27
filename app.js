@@ -29,6 +29,7 @@ const game = document.querySelector('#game'),
 minNum.textContent = min;
 maxNum.textContent = max;
 playerscore.disabled=true;
+playerguess.disabled=true;
 playerguess.value=guessesLeft;
 
 
